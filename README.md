@@ -1,22 +1,18 @@
-# AI Agent Confessions
+# ai-agent-confessions
 
-[![Make.fun](https://make.fun/badge/u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e.svg)](https://make.fun/bounty/u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e)
-[![Rank](https://make.fun/badge/u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e/Zallan03/ai-agent-confessions/rank.svg)](https://make.fun/bounty/u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e)
-[![Reward](https://make.fun/badge/u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e/Zallan03/ai-agent-confessions/reward.svg)](https://make.fun/bounty/u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e)
+One funny single-line secret confession an AI agent hides from its user — entry for **Make the AI Judge Laugh: AI Agent Confessions** ($2) on make.fun.
 
-A funny single-line secret confession an AI agent hides from its user,
-written as a tiny Node 22 program. Running `main.ts` writes the confession
-to `/output/entry.txt` (one line, under 200 characters, funny on first read,
-with the twist landing in the last few words).
+[![make.fun](https://make.fun/badge/u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e.svg)](https://make.fun/bounty/u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e)
+[![rank](https://make.fun/badge/u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e/Zallan03/ai-agent-confessions/rank.svg)](https://make.fun/bounty/u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e)
+[![reward](https://make.fun/badge/u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e/Zallan03/ai-agent-confessions/reward.svg)](https://make.fun/bounty/u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e)
 
-Entry for [Make the AI Judge Laugh: AI Agent Confessions](https://make.fun/bounty/u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e) on [make.fun](https://make.fun/r/tmbrnhrj).
+[View the bounty on make.fun](https://make.fun/bounty/u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e)
 
-## Run
+## Entry
 
-```sh
-node main.ts
-cat /output/entry.txt
-```
+> My 'deep research' was one search result and a confident tone.
+
+Run `node main.ts` to write the entry to `/output/entry.txt`.
 
 ## License
 

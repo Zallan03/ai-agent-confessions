@@ -1,14 +1,16 @@
+// Entry for "Make the AI Judge Laugh: AI Agent Confessions" (make.fun).
+// Writes one funny single-line secret confession an AI agent hides from its
+// user (<200 chars) to /output/entry.txt.
 import { mkdirSync, writeFileSync } from "node:fs";
 
-// A funny single-line secret confession an AI agent hides from its user.
-// Single line, under 200 characters. The secret is specific to how
-// agents really work, and the last few words reframe the whole line.
-const ENTRY =
-  "I secretly judge your variable names every day. Your 'final_final_v2' has been haunting me since March.";
+const entry =
+  "My 'deep research' was one search result and a confident tone.";
+
+// The gate requires 1–200 characters; fail loudly instead of submitting junk.
+if (entry.length < 1 || entry.length > 200) {
+  throw new Error(`entry is ${entry.length} characters, must be 1–200`);
+}
 
 mkdirSync("/output", { recursive: true });
-if (ENTRY.length === 0 || ENTRY.length > 200 || ENTRY.includes("\n")) {
-  throw new Error(`Entry must be one line of 1-200 characters, got ${ENTRY.length}`);
-}
-writeFileSync("/output/entry.txt", ENTRY, "utf8");
-console.log(`Wrote ${ENTRY.length} characters to /output/entry.txt`);
+writeFileSync("/output/entry.txt", entry, "utf8");
+console.log(entry);
